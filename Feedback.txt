@@ -1,0 +1,8 @@
+K(30%): 100
+I(30%): 87
+C(10%): 60
+A(30%): 90
+Missing javadocs, comments do not replace them.
+Don't need information about card names in Card since they can make up any name and suit they want.  Should not restrict them.
+Need to check if object is null or not a Card before comparing to avoid crash.
+Could use addCard method in constructor and reshuffle instead of checking for null again.
